@@ -13,8 +13,9 @@ class Horaire:
         self.ligne = ligne 
         self.direction = direction 
         self.is_semaine = is_semaine 
-        self.horaires = horaires 
-        
+        self.horaires = horaires
+
+    # --------- GETTERS --------------
     def get_ligne(self):
         return self.ligne
         
@@ -28,6 +29,13 @@ class Horaire:
         return self.horaires
     
     def get_next_bus(self, heureDepart):
+        """
+        Méthode qui récupère l'heure de passage du prochain bus d'après une heure de départ passée en paramètre
+        Parametres :
+            -heureDepart(String) : l'heure de départ
+        Retourne :
+            Une liste contenant la prochaine heure de passage et son index dans la liste des horaires de cet arret
+        """
 
         tempsMinimum = math.inf
         nextBus = None
