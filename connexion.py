@@ -6,6 +6,7 @@ Created on Thu Jan 24 10:01:18 2019
 """
 
 
+
 class Connexion:
     """
     Une connexion représente le lien entre deux arrets de bus, cette dernière est donc composée de :
