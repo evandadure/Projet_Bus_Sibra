@@ -25,11 +25,10 @@ In the example below the red line starts at 10:11, the green at 10:05 and the bl
 
 Download the programm, and open sibra.py with a Python compiler. In this file, I wrote a few examples to run the different algorithms :
 
-*shortest_way(planTest,"Chorus","CAMPUS")
-*fastest_way(planTest,"GARE","LYCEE-DE-POISY","fastest",["22/03/19","6:00"])
-
+* shortest_way(planTest,"Chorus","CAMPUS")
+* fastest_way(planTest,"GARE","LYCEE-DE-POISY","fastest",["22/03/19","6:00"])
 
 A good example to see the difference between the Fastest and Foremost algorithms :
-*fastest_way(planTest,"CAMPUS","GARE","foremost",["04/03/19","16:24"])
-*fastest_way(planTest,"GARE","VIGNIERES","foremost",["23/03/19","9:26"])
+* fastest_way(planTest,"CAMPUS","GARE","foremost",["04/03/19","16:24"])
+* fastest_way(planTest,"GARE","VIGNIERES","foremost",["23/03/19","9:26"])
 
